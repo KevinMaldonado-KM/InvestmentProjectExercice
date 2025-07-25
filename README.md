@@ -1,27 +1,57 @@
-# EssentialsPractice
+# 💰 Mini-Projet Angular - Simulateur d'Investissement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+Ce projet a été réalisé en autonomie dans le cadre de la formation **"Angular - The Complete Guide (2025 Edition)"** de Maximilian Schwarzmüller sur Udemy.
 
-## Development server
+**🎯 Objectif** : Mettre en pratique les bases d'Angular en développant un simulateur d’investissement. L'utilisateur peut saisir des paramètres financiers (capital initial, durée, taux, etc.) et visualiser le rendement projeté sur plusieurs années.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🧠 Concepts Angular abordés
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ce projet met en œuvre plusieurs concepts fondamentaux d’Angular :
 
-## Build
+- **Création de composants personnalisés** (`Header`, `UserInput`, `InvestmentResults`)
+- **Data binding** :
+  - *Property Binding* pour transmettre des données vers les templates
+  - *Event Binding* pour réagir aux actions utilisateurs (ex : formulaire)
+- **Two-Way Binding** via `[(ngModel)]` pour synchroniser les champs de formulaire
+- **Communication entre composants** :
+  - `@Input()` pour recevoir des données
+  - `@Output()` + `EventEmitter` pour émettre des événements vers le composant parent
+- **Utilisation de modèles TypeScript personnalisés** pour structurer les données (`investment-input.model.ts`, `investment-result.model.ts`)
+- **Rendu conditionnel avec `*ngIf` et listes dynamiques avec `*ngFor`**
+- **Séparation logique & affichage** (calculs dans le `AppComponent`, affichage délégué)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🖼️ Aperçu de l’application
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Aperçu du projet](public/screenshot.png)
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🧰 Technologies
 
-## Further help
+- Angular 18 (CLI)
+- TypeScript
+- HTML5 / CSS3
+- Angular CLI pour le scaffolding
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🚧 Statut
+
+✅ Projet terminé  
+🧭 Poursuite de la formation sur les sujets suivants :
+- Services & Injection de dépendances
+- Routing
+- Formulaires avancés (Template-driven & Reactive)
+- Appels HTTP & intégration backend
+- Gestion d'état (NgRx, Signals)
+
+---
+
+## 🔗 Liens utiles
+
+- [👉 Formation Udemy](https://www.udemy.com/course/the-complete-guide-to-angular-2/)
+- [👤 Mon profil LinkedIn](https://www.linkedin.com/in/kevin-maldonado-a17864295)
